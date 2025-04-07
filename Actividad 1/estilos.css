@@ -37,9 +37,10 @@ main {
     padding: 2em 10vh;
 }
 
-.hero {
-    margin: 2em 0;
+#vanguardias, #introduccion {
+    padding: 2em 0;
 }
+
 
 .caracteristicas {
     width: auto;
