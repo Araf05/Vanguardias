@@ -42,6 +42,20 @@ main {
     padding: 2em;
 }
 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+}
+
+li {
+    list-style: none;
+    padding: .5em 1em;
+    background-color: #4F034180;
+    border-radius: 15px;
+    color: #fef7fd;
+}
+
 .caracteristicas {
     width: auto;
     margin: 8vw 0;
