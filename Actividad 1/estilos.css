@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    padding: 4em;
+    padding: 3em;
     background-color: #4F0341;
 }
 
@@ -99,5 +99,6 @@ img {
 }
 
 h3 {
-    border-bottom: 2px solid #4F0341;
+    padding: .3em 0;
+    border-bottom: 3px solid #4F0341;
 }
