@@ -87,8 +87,8 @@ figure {
 
 
 img {
-    width: 30vw;
-    max-height: 100vh;
+    max-width: 30vw;
+    max-height: 80vh;
     box-shadow: 0 4px 8px 0 #4F0341,
         0 6px 20px 0 #4F0341;
 }
