@@ -11,13 +11,17 @@ Colores
 }
 
 p,
+h1,
 h2,
 h3 {
     margin-bottom: 1rem;
     color: #4F0341;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Helvetica;
 }
 
+h1 {
+    font-size: 2em;
+}
 
 body {
     background-color: #e8d7e6;
@@ -28,10 +32,28 @@ header {
     background-color: #4F0341;
 }
 
-h1 {
+#arte {
     font-size: 3rem;
     color: #e8d7e6;
     text-shadow: 1px 2px 5px #0d0357;
+}
+
+nav {
+    background-color: #170013;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: .5em;
+}
+
+.nav_link {
+    color: #e8d7e6;
+    text-decoration: none;
+    padding: 1em;
+    font-weight: bold;
 }
 
 main {
@@ -43,20 +65,17 @@ main {
     padding: 2rem;
 }
 
-ul {
-    padding: 2rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: space-evenly;
+.lista {
+    padding: 1rem 0;
+    border-radius: 15px;
+    width: fit-content;
+    border: 1px solid #4F0341;
 }
 
-li {
-    list-style: none;
-    padding: .5rem 1rem;
-    background-color: #4F034180;
-    border-radius: 15px;
-    color: #e8d7e6;
+.lista>li {
+    //list-style: none;
+    margin: 0 0 0 2em;
+    padding: .2em 1rem;
 }
 
 .caracteristicas {
@@ -125,11 +144,11 @@ footer>p:last-child {
     padding: .4rem .5rem;
 }
 
-a {
+.button {
     text-decoration: none;
     color: #e8d7e6;
 }
 
-a:active {
+button:active {
     color: #e8d7e6;
 }
