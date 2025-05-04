@@ -5,6 +5,7 @@ Colores
 - claro: #e8d7e6,
 - verde: #5ed8cc,
 - amarillo: #fffff7
+- celeste: 0c6fb5
 */
 
 * {
@@ -185,24 +186,16 @@ footer {
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-}
-
-footer>p {
     color: #e8d7e6;
-    margin: 0;
 }
 
-footer>p:last-child {
-    border: 2px solid #e8d7e6;
-    border-radius: 50%;
-    padding: .4rem .5rem;
-}
-
-.button {
+footer #arte {
+    display: block;
+    color: #fffff7;
     text-decoration: none;
-    color: #e8d7e6;
+    font-size: 2em;
 }
 
-button:active {
+.footer_p {
     color: #e8d7e6;
 }
